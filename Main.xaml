@@ -1,0 +1,210 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap2010:Annotation.AnnotationText="UPTF00000088eyI8SGVscExpbms+a19fQmFja2luZ0ZpZWxkIjpudWxsLCI8SW5pdGlhbFRvb2x0aXA+a19fQmFja2luZ0ZpZWxkIjpudWxsLCI8VmVyc2lvbj5rX19CYWNraW5nRmllbGQiOjF9" sap:VirtualizedContainerService.HintSize="1153,2471" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.ExtractData</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.Excel.Activities</x:String>
+      <x:String>System.Numerics</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>System.Data.SqlClient</AssemblyReference>
+      <AssemblyReference>System.Linq.Parallel</AssemblyReference>
+      <AssemblyReference>System.Collections.Immutable</AssemblyReference>
+      <AssemblyReference>System.Linq.Queryable</AssemblyReference>
+      <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="608,2406" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="sd:DataTable" Default="[New System.Data.DataTable]" Name="dtQuestion" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Newest Questions - Stack Overflow" sap:VirtualizedContainerService.HintSize="546,2318" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="1bb4a25e-f7d2-44ab-b239-32c35b140850" Version="V2" WebDriverMode="Disabled">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="512,2078" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="x:String" Name="strQuestionBeforeSearch" />
+              <Variable x:TypeArguments="x:String" Name="strQuestionAfterSearch" />
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NGetText DisplayName="Get Text '24,103,550 questions'" sap:VirtualizedContainerService.HintSize="450,189" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="1bb4a25e-f7d2-44ab-b239-32c35b140850" TextString="[strQuestionBeforeSearch]" Version="V3">
+              <uix:NGetText.Target>
+                <uix:TargetAnchorable BrowserURL="https://stackoverflow.com/questions?sort=Newest&amp;edited=true" CvTextArea="515, 374, 160, 20" CvType="AnyWordGroup" DesignTimeRectangle="517, 372, 268, 22" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl isleaf='1' parentid='mainbar' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl isleaf='1' parentid='mainbar' tag='DIV' type='' class='fs-body3 flex--item fl1 mr12 sm:mr0 sm:mb12' /&gt;" Guid="4b6b1e87-1e23-43a0-8cab-df4f1ffc83a3" InformativeScreenshot="190e83d5ecdfe5ba58b531b5e87f1e27.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Newest Questions - Stack Overflow' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive" />
+              </uix:NGetText.Target>
+            </uix:NGetText>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click '50'" sap:VirtualizedContainerService.HintSize="450,189" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1bb4a25e-f7d2-44ab-b239-32c35b140850" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://stackoverflow.com/questions" DesignTimeRectangle="1138, 655, 32, 27" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='50' class='s-pagination--item' parentid='mainbar' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='50' class='s-pagination--item' parentid='mainbar' tag='A' type='' check:innerText='50' /&gt;" Guid="84f28304-1208-40b7-b132-3648a6085b8b" InformativeScreenshot="cf38afadf97857780ac97a33633cb691.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Newest Questions - Stack Overflow' /&gt;" SearchSteps="FuzzySelector" Version="V3" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CvTextArea="1182, 664, 53, 13" CvTextArgument="per page" CvType="Text" DesignTimeRectangle="1174, 655, 70, 27" ElementType="Text" FullSelectorArgument="&lt;webctrl parentid='mainbar' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='mainbar' tag='SPAN' type='' class='s-pagination--item s-pagination--item__clear' aaname='per page' check:innerText='per page' /&gt;" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Filter'" sap:VirtualizedContainerService.HintSize="450,189" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1bb4a25e-f7d2-44ab-b239-32c35b140850" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://stackoverflow.com/questions" CvElementArea="1174, 426, 71, 39" CvTextArea="1206, 438, 28, 12" CvTextArgument="Filter" CvType="Button" DesignTimeRectangle="1175, 427, 69, 36" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='                          Filter                     ' aria-role='button' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='                          Filter                     ' aria-role='button' tag='BUTTON' type='' class='s-btn s-btn__outlined s-btn__sm s-btn__icon ws-nowrap' check:innerText='Filter' /&gt;" Guid="1df3b97c-6499-45f1-84a7-ef7115954b11" InformativeScreenshot="7971129abb79501bfb683d3981b2082c.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Newest Questions - Stack Overflow' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Filter Uipath" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="450,250" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="1bb4a25e-f7d2-44ab-b239-32c35b140850" Text="Uipath" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://stackoverflow.com/questions" CvElementArea="926, 570, 213, 39" CvType="InputBox" DesignTimeRectangle="931, 574, 204, 29" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl aria-labelledby='f46b4494-0422-4b24-91e5-b779120737f2' aria-role='combobox' tag='INPUT' type='text' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-labelledby='f46b4494-0422-4b24-91e5-b779120737f2' aria-role='combobox' tag='INPUT' type='text' class='s-input js-tageditor-replacing' placeholder='e.g. javascript or python' aaname='' /&gt;" Guid="5e4f451c-8c94-47af-a857-f357fdd09481" InformativeScreenshot="27fba068140f911b89c32729661f9fd8.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Newest Questions - Stack Overflow' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CvTextArea="921, 544, 127, 17" CvTextArgument="The following tags:" CvType="Text" DesignTimeRectangle="921, 543, 128, 20" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='The following tags:' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='The following tags:' tag='LABEL' type='' class='flex--item s-label fw-normal ws-nowrap' check:innerText='The following tags:' /&gt;" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Apply filter'" sap:VirtualizedContainerService.HintSize="450,189" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1bb4a25e-f7d2-44ab-b239-32c35b140850" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://stackoverflow.com/questions" CvElementArea="527, 673, 83, 39" CvTextArea="538, 684, 62, 15" CvTextArgument="Apply filter" CvType="Button" DesignTimeRectangle="530, 675, 79, 35" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;webctrl tag='BUTTON' type='submit' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='submit' class='s-btn s-btn__sm s-btn__filled flex--item' aaname='Apply filter' check:innerText='Apply filter' /&gt;" Guid="200d98d6-22c9-42db-9a16-efd726277a75" InformativeScreenshot="ed6356ce9664c772e9fa5a48e9405869.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Newest Questions - Stack Overflow' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <ui:InterruptibleDoWhile CurrentIndex="{x:Null}" Condition="[strQuestionBeforeSearch=strQuestionAfterSearch]" DisplayName="Do While" sap:VirtualizedContainerService.HintSize="450,533" sap2010:WorkflowViewState.IdRef="InterruptibleDoWhile_1">
+              <ui:InterruptibleDoWhile.Body>
+                <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="416,387" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <Delay Duration="00:00:03" sap:VirtualizedContainerService.HintSize="354,122" sap2010:WorkflowViewState.IdRef="Delay_1" />
+                  <uix:NGetText DisplayName="Get Text '789 questions'" sap:VirtualizedContainerService.HintSize="354,180" sap2010:WorkflowViewState.IdRef="NGetText_2" ScopeIdentifier="1bb4a25e-f7d2-44ab-b239-32c35b140850" TextString="[strQuestionAfterSearch]" Version="V3">
+                    <uix:NGetText.Target>
+                      <uix:TargetAnchorable BrowserURL="https://stackoverflow.com/questions/tagged/uipath?sort=Newest&amp;edited=true" CvTextArea="515, 365, 107, 20" CvType="AnyWordGroup" DesignTimeRectangle="517, 363, 300, 22" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' isleaf='1' parentid='mainbar' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' isleaf='1' parentid='mainbar' tag='DIV' class='fs-body3 flex--item fl1 mr12 sm:mr0 sm:mb12' /&gt;" Guid="efce7dcd-3205-4a1b-9066-2d235346a87f" ImageBase64="" InformativeScreenshot="6c3473ad11617e6aec891241a1d9736b.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Newest &amp;apos;uipath&amp;apos; Questions - Stack Overflow' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive" />
+                    </uix:NGetText.Target>
+                  </uix:NGetText>
+                </Sequence>
+              </ui:InterruptibleDoWhile.Body>
+            </ui:InterruptibleDoWhile>
+            <uix:NExtractData AppendResults="False" ContinueOnError="True" DataTable="[dtQuestion]" DisplayName="Extract Table Data" ExtractDataSettings="&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Structured' AddCvHeader='true' IsScrollEnabled='false'&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column0' Name='Question'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;true&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column5' Name='Vote'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column6' Name='Answers'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column7' Name='Views'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataNextLink' /&gt;&#xA;&lt;/Table&gt;" ExtractMetadata="&lt;extract&gt;&lt;row exact='1'&gt;&lt;webctrl tag='div' /&gt;&lt;/row&gt;&lt;column exact='1' name='Column0' attr='fulltext'&gt;&lt;webctrl tag='div' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='h3' idx='1' /&gt;&lt;webctrl tag='a' idx='1' /&gt;&lt;/column&gt;&lt;column exact='1' name='Column5' attr='fulltext'&gt;&lt;webctrl tag='div' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='span' idx='1' /&gt;&lt;/column&gt;&lt;column exact='1' name='Column6' attr='fulltext'&gt;&lt;webctrl tag='div' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='span' idx='1' /&gt;&lt;/column&gt;&lt;column exact='1' name='Column7' attr='fulltext'&gt;&lt;webctrl tag='div' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='3' /&gt;&lt;webctrl tag='span' idx='1' /&gt;&lt;/column&gt;&lt;/extract&gt;" sap:VirtualizedContainerService.HintSize="450,189" sap2010:WorkflowViewState.IdRef="NExtractData_1" LimitExtractionTo="None" MaximumResults="0" ScopeIdentifier="1bb4a25e-f7d2-44ab-b239-32c35b140850" Timeout="5" Version="V3">
+              <uix:NExtractData.NextLink>
+                <uix:TargetAnchorable BrowserURL="https://stackoverflow.com/questions/tagged/uipath?sort=Newest&amp;edited=true" CvElementArea="727, 754, 47, 29" CvTextArea="737, 762, 29, 12" CvTextArgument="Next" CvType="Button" DesignTimeRectangle="729, 755, 45, 27" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname=' Next' parentid='mainbar' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname=' Next' parentid='mainbar' tag='A' type='' class='s-pagination--item js-pagination-item' check:innerText='Next' /&gt;" Guid="0bc5198a-02f1-4707-8e2b-6383bfa1030e" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Newest &amp;apos;uipath&amp;apos; Questions - Stack Overflow' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive" />
+              </uix:NExtractData.NextLink>
+              <uix:NExtractData.Target>
+                <uix:TargetAnchorable BrowserURL="https://stackoverflow.com/questions/tagged/uipath?sort=Newest&amp;edited=true" DesignTimeRectangle="493, 368, 751, 6432" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;webctrl id='questions' tag='DIV' /&gt;" Guid="ca77f6ef-147a-4477-8e43-b6b4663a2446" InformativeScreenshot="c321b4bcd6194bd03aeafb2ee2ba50d8.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Newest &amp;apos;uipath&amp;apos; Questions - Stack Overflow' /&gt;" SearchSteps="Selector" Version="V3" Visibility="Interactive" />
+              </uix:NExtractData.Target>
+            </uix:NExtractData>
+            <ui:WriteRange StartingCell="{x:Null}" AddHeaders="True" DataTable="[dtQuestion]" DisplayName="Write Range Workbook" sap:VirtualizedContainerService.HintSize="450,148" sap2010:WorkflowViewState.IdRef="WriteRange_1" SheetName="Sheet1" WorkbookPath="C:\Users\ADMIN\Desktop\New Microsoft Excel Worksheet.xlsx" />
+            <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="450,115" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="[&quot;Most voted question:&quot; +dtQuestion.AsEnumerable.OrderByDescending(Function(x) Convert.ToInt32(x.Item(&quot;Vote&quot;))).First.Item(&quot;Question&quot;).ToString]" />
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-8, -8, 1936, 1056" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJUSURBVFhH7VVPiE1RGL/5U1IiUZR48865Dy8pf7bKShFFhNhZULKwtJD7nYd6s5mVFAvKrFhYqREpkdjIwobIZkSSmXn3njMzNnP9vtN3zfOa/LlzZkLvV79u5/u+8/1+58/tRF10ERKOqlsz0s8yUhskNHsYalYXW9LDYA4Tb4apskRSs4fMxPthYIJNgAP5rWiupGYGLIDV1mXoge1viAFmU8IzA4hfhsi4M/EJCUU5RXMsqTtiYAI1ByUVFmMXetZA4KMIMW/ktHIh5/x9SNQriTtLPRv9pNCwVFkBgYcixHyZUrXGuZRq6zAe4Th24R3Gy/yk0Mhp+zyINMHi8rUgeIBzzug9k3F1P8iltBQfcRTv5rOWkIcjtRdC/jcU0b78ypb5LtHnJMbsk/JykH99iJthlW9tok9zTNJRi5RG7oWIgfHj0USvyii+jfoMJo9LaTmgSR1b+WhSwBtJHelLxdnnVFmAmuttNZ9gdMfIea18kxCA4GYRGW8T4m0fsEbt5ONBzTGMx8BB3gWZGhbZRb0c23oWIu/BwgjzdZaoU6mpbQv2LuCh2WWNPpo14vWdt5kvG4QO4ziedhg5IyXTB5o9KBpDyIJP+Ox5q11Db2ITXMcvImr6cUQfPveuXeQnhwCa3gVbhYkp+BV8DmNXwZP8R8jUcODLxbc9M+oQVtgLwXv4fmkz8Z18ZDKtHK7138yZMvwpRqm6OjVqH1ZuYIgfosEW1Zdy7k/6/IDSEzsQzEDnFv+KMu0/MlAW/76BUJS2v4+pmkyH0raLvw1R9A0z4IeXhL2pnwAAAABJRU5ErkJggg==" InformativeScreenshot="000c4664bc933848ec215252168fac45.jpg" Selector="&lt;html app='chrome.exe' title='Newest Questions - Stack Overflow' /&gt;" Title="Newest Questions - Stack Overflow" Url="https://stackoverflow.com/questions" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
